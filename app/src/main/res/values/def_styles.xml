@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义布局的属性值 -->
+    <declare-styleable name="MagicRelative">
+        <attr name="_lsbShowLeftLabel" format="boolean"/>
+        <attr name="_lsbShowRightLabel" format="boolean"/>
+        <attr name="_lsbShowLeftText" format="string"/>
+        <attr name="_lsbShowRightText" format="string"/>
+    </declare-styleable>
+</resources>

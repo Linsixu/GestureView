@@ -9,13 +9,16 @@
         <cn.bili.linsixu.gestureview.view.GestureView
             android:id="@+id/gestureView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="Hello World!"/>
+        <cn.bili.linsixu.gestureview.view.MagicRelative
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:_lsbShowLeftLabel="true"
+            app:_lsbShowRightLabel="true"
+            app:_lsbShowLeftText="海贼王"
+            app:_lsbShowRightText="播放进度">
+        </cn.bili.linsixu.gestureview.view.MagicRelative>
 
     </FrameLayout>
 </layout>

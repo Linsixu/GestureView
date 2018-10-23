@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GestureView</string>
+    <string name="text_left_name">海贼王</string>
+    <string name="text_right_name">播放进度</string>
 </resources>
